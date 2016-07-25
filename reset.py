@@ -5,7 +5,7 @@ import os
 import argparse
 
 
-parser = argparse.ArgumentParser(description='Reset the ublox GPS module NE0-0-01 via binary commands')
+parser = argparse.ArgumentParser(description='Reset the ublox GPS module NE0-M8N-0-01 via binary commands')
 parser.add_argument('--bbr', required=True, choices=['hot', 'warm', 'cold'], help='Specify the BBR sections to clear. Options: hot - warm - cold')
 args = parser.parse_args()
 
